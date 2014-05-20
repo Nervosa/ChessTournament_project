@@ -3,4 +3,4 @@ In Windows project causes an "UnicodeDecodeError: 'ascii' codec can't decode byt
 import sys
 sys.setdefaultencoding("cp1251")
 
-to the PythonXX/Lib/sute-packages folder.
+to the PythonXX/Lib/site-packages folder.
