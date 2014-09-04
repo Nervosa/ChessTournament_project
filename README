@@ -1,4 +1,4 @@
-In Windows project causes an "UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 4: ordinal not in range(128)" error. This can be fixed by adding a file named "sitecustomize.py" containig two lines:
+In Windows project causes an "UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 4: ordinal not in range(128)" error. This can be fixed by adding a file named "sitecustomize.py" containing two lines:
 
 import sys
 sys.setdefaultencoding("cp1251")
